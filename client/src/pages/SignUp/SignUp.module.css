@@ -1,0 +1,40 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_text {
+  font-size: 20px;
+}
+
+.form_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.succesful_content {
+  width: 400px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4b4b4b;
+  border-radius: 5px;
+  background-color: rgba(0, 255, 81, 0.4);
+}
+
+.succesful_content div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.text {
+  color: #8e8e8e;
+}
